@@ -1,0 +1,26 @@
+{
+    "name": "vscode-jstl-snippets",
+    "displayName": "JSTL Snippets",
+    "description": "JSP Standard Tag Library snippets for VSCode",
+    "version": "0.1.0",
+    "icon": "icon.png",
+    "publisher": "aurer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aurer/vscode-jstl-snippets.git"
+    },
+    "engines": {
+        "vscode": "^1.34.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "jsp",
+                "path": "./snippets.json"
+            }
+        ]
+    }
+}

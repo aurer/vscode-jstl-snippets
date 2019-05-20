@@ -1,0 +1,152 @@
+{
+	"c:choose": {
+		"prefix": "c:choose",
+		"body": "<c:choose>\r\n\t<c:when test=\"${${1}}\">\r\n\t\t${2}\r\n\t</c:when>\r\n\t<c:otherwise>\r\n\t\t${3}\r\n\t</c:otherwise>\r\n</c:choose>\r\n",
+		"description": "",
+		"scope": "jsp"
+	},
+	"c:forEach": {
+		"prefix": "c:forEach",
+		"body": "<c:forEach items=\"${${1}}\" var=\"${2}\" varStatus=\"${3}\" begin=\"${${4}}\" end=\"${${5}}\">\r\n\t${6}\r\n</c:forEach>\r\n",
+		"description": "",
+		"scope": "jsp"
+	},
+	"c:forTokens": {
+		"prefix": "c:forTokens",
+		"body": "<c:forTokens items=\"${${1}}\" delims=\"${2}\" var=\"${3}\">\r\n\t${4}\r\n</c:forTokens>\r\n",
+		"description": "",
+		"scope": "jsp"
+	},
+	"c:if": {
+		"prefix": "c:if",
+		"body": "<c:if test=\"${${1}}\">\r\n\t${2}\r\n</c:if>\r\n",
+		"description": "",
+		"scope": "jsp"
+	},
+	"c:catch": {
+		"prefix": "c:catch",
+		"body": "<c:catch var=\"${1}\">\r\n\t${2}\r\n</c:catch>\r\n",
+		"description": "",
+		"scope": "jsp"
+	},
+	"c:import": {
+		"prefix": "c:import",
+		"body": "<c:import url=\"${1}\" charEncoding=\"utf-8\">\r\n\t${2}\r\n</c:import>\r\n",
+		"description": "",
+		"scope": "jsp"
+	},
+	"c:out": {
+		"prefix": "c:out",
+		"body": "<c:out value=\"${${1}}\"${2: escapeXml=\"${3:false}\"} />\r\n",
+		"description": "",
+		"scope": "jsp"
+	},
+	"c:param": {
+		"prefix": "c:param",
+		"body": "<c:param name=\"${1}\" value=\"${${2}}\" />\r\n",
+		"description": "",
+		"scope": "jsp"
+	},
+	"c:set": {
+		"prefix": "c:set",
+		"body": "<c:set var=\"${1}\" value=\"${${2}}\" />\r\n",
+		"description": "",
+		"scope": "jsp"
+	},
+	"c:remove": {
+		"prefix": "c:remove",
+		"body": "<c:remove var=\"${1}\" />\r\n",
+		"description": "",
+		"scope": "jsp"
+	},
+	"c:url": {
+		"prefix": "c:url",
+		"body": "<c:url value=\"${1}\" var=\"${2}\">\r\n\t${3}\r\n</c:url>\r\n",
+		"description": "",
+		"scope": "jsp"
+	},
+	"c:redirect": {
+		"prefix": "c:redirect",
+		"body": "<c:redirect url=\"${1}\" />\r\n",
+		"description": "",
+		"scope": "jsp"
+	},
+	"fn:contains": {
+		"prefix": "fn:contains",
+		"body": "fn:contains(${1:filename}, ${2:searchString}",
+		"description": "",
+		"scope": "jsp"
+	},
+	"fn:containsIgnoreCase": {
+		"prefix": "fn:containsIgnoreCase",
+		"body": "fn:containsIgnoreCase(${1:filename}, ${2:searchString})",
+		"description": "",
+		"scope": "jsp"
+	},
+	"fn:endsWith": {
+		"prefix": "fn:endsWith",
+		"body": "fn:endsWith(${1:filename}, ${2:searchString})",
+		"description": "",
+		"scope": "jsp"
+	},
+	"fn:indexOf": {
+		"prefix": "fn:indexOf",
+		"body": "fn:indexOf(${1:filename}, ${2:searchString})}",
+		"description": "",
+		"scope": "jsp"
+	},
+	"fn:join": {
+		"prefix": "fn:join",
+		"body": "fn:join(${1:array}, ${2:delimiter})",
+		"description": "",
+		"scope": "jsp"
+	},
+	"fn:length": {
+		"prefix": "fn:length",
+		"body": "fn:length(${1:string})",
+		"description": "",
+		"scope": "jsp"
+	},
+	"fn:replace": {
+		"prefix": "fn:replace",
+		"body": "fn:replace(${1:string}, ${2:toReplace}, ${3:with})",
+		"description": "",
+		"scope": "jsp"
+	},
+	"fn:split": {
+		"prefix": "fn:split",
+		"body": "fn:split(${1:string}, ${2:delimiter})",
+		"description": "",
+		"scope": "jsp"
+	},
+	"fn:startsWith": {
+		"prefix": "fn:startsWith",
+		"body": "fn:startsWith(${1:string}, ${2:searchString})",
+		"description": "",
+		"scope": "jsp"
+	},
+	"fn:substring": {
+		"prefix": "fn:substring",
+		"body": "fn:substring(${1:string}, ${2:start}, ${3:stop})",
+		"description": "",
+		"scope": "jsp"
+	},
+	"fn:toLowerCase": {
+		"prefix": "fn:toLowerCase",
+		"body": "fn:toLowerCase(${1:string})",
+		"description": "",
+		"scope": "jsp"
+	},
+	"fn:toUpperCase": {
+		"prefix": "fn:toUpperCase",
+		"body": "fn:toUpperCase(${1:string})",
+		"description": "",
+		"scope": "jsp"
+	},
+	"fn:trim": {
+		"prefix": "fn:trim",
+		"body": "fn:trim(${1:string})",
+		"description": "",
+		"scope": "jsp"
+	}
+}
