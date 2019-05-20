@@ -36,7 +36,3 @@ Start typing one of JSTL tags or functions below and any matching snippets will 
 - fn:toLowerCase
 - fn:toUpperCase
 - fn:trim
-
-## Change log
-
-Change log available [here](CHANGELOG.md)
