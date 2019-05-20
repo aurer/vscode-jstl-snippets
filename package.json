@@ -4,7 +4,7 @@
     "description": "JSP Standard Tag Library snippets for VSCode",
     "version": "0.1.0",
     "icon": "icon.png",
-    "publisher": "aurer",
+    "publisher": "Aurer",
     "repository": {
         "type": "git",
         "url": "https://github.com/aurer/vscode-jstl-snippets.git"
