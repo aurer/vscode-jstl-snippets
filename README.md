@@ -1,12 +1,12 @@
 # VSCode JSTL Snippets
 
-Snippets for the JavaServer Pages Standard Tag Library
+Snippets for the JavaServer Pages Standard Tag Library.
 
 ## Usage
 
-Start typing one of JSTL tags or functions below and any matching snippets will be auto-suggested. Select the relevant one and hit the tab key tp expand the snippet.
+Start typing one of JSTL tags or functions below and any matching snippets will be auto-suggested. Select the relevant snippet and hit the tab key to expand it.
 
-## Supported snippets
+## Supported tags
 
 - c:choose
 - c:forEach
@@ -20,6 +20,9 @@ Start typing one of JSTL tags or functions below and any matching snippets will 
 - c:remove
 - c:url
 - c:redirect
+
+## Supported functions
+
 - fn:contains
 - fn:containsIgnoreCase
 - fn:endsWith
@@ -36,4 +39,4 @@ Start typing one of JSTL tags or functions below and any matching snippets will 
 
 ## Change log
 
-Change log avaliable [here](CHANGELOG.md)
+Change log available [here](CHANGELOG.md)
